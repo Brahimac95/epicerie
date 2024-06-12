@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lôgôfè</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Lôgôfè</a>
+        <nav class="navBar">
+            <a href="#home">Accueil</a>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#products">Produits</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Avis</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shooping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/potiron.jpg" alt="potiron">
+                <div class="content">
+                    <h3>Potiron</h3>
+                    <span class="price">4.99€</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/banane.jpg" alt="des bananes">
+                <div class="content">
+                    <h3>Bananes</h3>
+                    <span class="price">2.99€</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/grenade.jpg" alt="grenade">
+                <div class="content">
+                    <h3>Grenade</h3>
+                    <span class="price">6.99€</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="total">total : 14.97€</div>
+            <a href="#" class="btn">Commander</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="exemple@gmail.com" class="box">
+            <input type="password" placeholder="mot de passe" class="box">
+            <p><a href="#">Mot de passe oublié </a></p>
+            <p><a href="#"> Ouvrir un compte </a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+    <!-- Banner section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Fruits et légumes <span>frais</span> et biologiques</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo porro ex repudiandae fuga nihil eius
+                perferendis est quibusdam</p>
+            <a href="#products" class="btn">Faites vos courses</a>
+        </div>
+    </section>
+
+    <!-- Features section starts -->
+    <section class="features" id="features">
+        <h2 class="heading">Nos<span>fonctionnalités</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/feature-img1.png" alt="panier de fruit">
+                <h3>Produits frais</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eligendi obcaecati nisi ipsam
+                </p>
+                <a href="#" class="btn">Détails</a>
+            </div>
+            <div class="box">
+                <img src="images/feature-img2.png" alt="livreur">
+                <h3>On vous livre chez vous</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eligendi obcaecati nisi ipsam
+                </p>
+                <a href="#" class="btn">Détails</a>
+            </div>
+            <div class="box">
+                <img src="images/feature-img3.png" alt="payement facile">
+                <h3>Payement facile</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eligendi obcaecati nisi ipsam
+                </p>
+                <a href="#" class="btn">Détails</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section products -->
+    <section class="products" id="products">
+        <h2 class="heading">Nos <span>produits</span></h2>
+        <div class="product-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/mangue.jpg" alt="une mangue">
+                    <h3>Mangue Bio</h3>
+                    <div class="price">13.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/banane.jpg" alt="des bananes">
+                    <h3>Bananes Bio</h3>
+                    <div class="price">2.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/potiron.jpg" alt="potiron">
+                    <h3>Potiron Bio</h3>
+                    <div class="price">4.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/grenade.jpg" alt="grenade">
+                    <h3>Grenade Bio</h3>
+                    <div class="price">6.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/carotte.jpg" alt="carotte">
+                    <h3>Carottes Bio</h3>
+                    <div class="price">3.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/oeufs.jpg" alt="oeufs">
+                    <h3>Oeufs Bio</h3>
+                    <div class="price">4.99€ les 12</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/rezel-apacionado-MZfS19xrrz0-unsplash.jpg" alt="tomates">
+                    <h3>Tomates à l'ancienne Bio</h3>
+                    <div class="price">4.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/courgette.jpg" alt="courgette">
+                    <h3>Courgettes Bio</h3>
+                    <div class="price">2.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/oignons.jpg" alt="oignons">
+                    <h3>Oignons Bio</h3>
+                    <div class="price">4.99€ le kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/noix.jpg" alt="noix">
+                    <h3>Noix Bio</h3>
+                    <div class="price">7.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/radis.jpg" alt="radis">
+                    <h3>Radis Bio</h3>
+                    <div class="price">4.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/ail.jpg" alt="de l'ail">
+                    <h3>Ail Bio</h3>
+                    <div class="price">3.99€ le Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Ajouter au panier</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Categories sesction starts -->
+    <section class="categories" id="categories">
+        <h2 class="heading">Nos <span>categories</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/nathan-dumlao-bRdRUUtbxO0-unsplash.jpg" alt="des fruits et legumes">
+                <h3>Fruits et legumes</h3>
+                <p>Jusqu'à 5% de reduction</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="images/boissons.jpg" alt="images de boissons">
+                <h3>Boissons</h3>
+                <p>Jusqu'à 10% de reduction</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="images/karl-muscat-sEqo82gbhUY-unsplash.jpg" alt="images de poissons">
+                <h3>Boucherie-Poissonnerie </h3>
+                <p>Jusqu'à 5% de reduction</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="images/disiana-caballero-s4mpAZSvcbE-unsplash.jpg" alt="des céréals">
+                <h3>Produits en vrac</h3>
+                <p>Jusqu'à 5% de reduction</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section start -->
+    <section class="review" id="review">
+        <h2 class="heading">Avis <span>Des clients</span></h2>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper ">
+                <div class="box swiper-slide">
+                    <img src="images/review1.jpg" alt="image d'une fille">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem earum facere, nemo
+                        quas officiis sint neque repudiandae?
+                    </p>
+                    <h3>Jane</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/review2.jpg" alt="image d'un home">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem earum facere, nemo
+                        quas officiis sint neque repudiandae?
+                    </p>
+                    <h3>Franck</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/review3.jpg" alt="image d'une fille">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem earum facere, nemo
+                        quas officiis sint neque repudiandae?
+                    </p>
+                    <h3>Amandine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/review4.jpg" alt="image d'un home">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem earum facere, nemo
+                        quas officiis sint neque repudiandae?
+                    </p>
+                    <h3>Sebastien</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="images/vince-veras-AJIqZDAUD7A-unsplash.jpg" alt="image d'une fille">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem earum facere, nemo
+                        quas officiis sint neque repudiandae?
+                    </p>
+                    <h3>Camille</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog section start-->
+    <section class="blogs" id="blogs">
+        <h2 class="heading">Notre <span>blog</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/pumpkin-1768857_1280.jpg" alt="fruits et légumes">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>Par Fred</a>
+                        <a href="#"><i class="fas fa-calendar"></i>20 mai 2024</a>
+                    </div>
+                    <h3>Lorem, ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum tenetur aliquid porro
+                        facere beatae quas nisi impedit</p>
+                    <a href="#" class="btn">Plus de détails</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/casserole-dish-2776735_1280.jpg" alt="fruits et légumes">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>Par Jane</a>
+                        <a href="#"><i class="fas fa-calendar"></i>15 mai 2024</a>
+                    </div>
+                    <h3>Lorem, ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum tenetur aliquid porro
+                        facere beatae quas nisi impedit</p>
+                    <a href="#" class="btn">Plus de détails</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/vegetable.jpg" alt="fruits et légumes">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>Par Julie</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 10 avril 2024</a>
+                    </div>
+                    <h3>Lorem, ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum tenetur aliquid porro
+                        facere beatae quas nisi impedit</p>
+                    <a href="#" class="btn">Plus de détails</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/vegetable2.jpg" alt="fruits et légumes">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>Par Sebastien</a>
+                        <a href="#"><i class="fas fa-calendar"></i>15 mars 2024</a>
+                    </div>
+                    <h3>Lorem, ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum tenetur aliquid porro
+                        facere beatae quas nisi impedit</p>
+                    <a href="#" class="btn">Plus de détails</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-shopping-basket"></i> Lôgôfè </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate doloribus quas animi.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-tiktok"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact </h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+336 65 43 29 58</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>04 03 02 01 00</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>brahimac95@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>63000, Clermont-Ferrand</a>
+            </div>
+            <div class="box">
+                <h3> Liens </h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Accueil</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Fonctionnalités</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Produits</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Categories</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Avis</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+            <div class="box">
+                <h3>Newsletter </h3>
+                <p>Abonnez-vous 😊</p>
+                <input type="email" placeholder="exemple@gmail.com" class="email">
+                <input type="submit" value="S'abonner" class="btn">
+                <div>
+                    <img src="images/capture2.PNG" alt="payment par carte" class="payment-img">
+                </div>
+            </div>
+        </div>
+        <div class="credit">Created by <span>Brahima</span> | All rights reserved</div>
+    </section>
+
+    <!-- Footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
